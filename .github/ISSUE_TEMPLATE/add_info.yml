@@ -1,0 +1,52 @@
+name: Update Awesome List
+description: To update the awesome list
+title: "[Awesome List] Input the title"
+labels: ["Awesome List"]
+assignees: []
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of the project
+      placeholder: Input the title
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: The date of the project, format: YYYY-MM-DD
+      placeholder: 2025-01-01
+    validations:
+      required: true
+
+  - type: textarea
+    id: arxiv_link
+    attributes:
+      label: Arxiv Link
+      description: The arxiv link of the project
+      placeholder: https://arxiv.org/abs/2501.00000
+
+  - type: input
+    id: github_link
+    attributes:
+      label: Github Link
+      description: The github link of the project
+      placeholder: https://github.com/
+
+  - type: input
+    id: official_link
+    attributes:
+      label: Official Link
+      description: The official link of the project
+      placeholder: http://github.com/
+
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: The category of the project
+      placeholder: Input the category
