@@ -23,7 +23,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: arxiv_link
     attributes:
       label: Arxiv Link
