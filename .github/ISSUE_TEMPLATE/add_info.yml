@@ -24,6 +24,15 @@ body:
       required: true
 
   - type: input
+    id: category
+    attributes:
+      label: Category
+      description: The category of the project
+      placeholder: Input the category
+    validations:
+      required: true
+
+  - type: input
     id: arxiv_link
     attributes:
       label: Arxiv Link
@@ -43,10 +52,3 @@ body:
       label: Official Link
       description: The official link of the project
       placeholder: "http://github.com/"
-
-  - type: input
-    id: category
-    attributes:
-      label: Category
-      description: The category of the project
-      placeholder: Input the category
