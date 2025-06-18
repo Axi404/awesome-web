@@ -28,21 +28,21 @@ body:
     attributes:
       label: Arxiv Link
       description: The arxiv link of the project
-      placeholder: https://arxiv.org/abs/2501.00000
+      placeholder: "https://arxiv.org/abs/2501.00000"
 
   - type: input
     id: github_link
     attributes:
       label: Github Link
       description: The github link of the project
-      placeholder: https://github.com/
+      placeholder: "https://github.com/"
 
   - type: input
     id: official_link
     attributes:
       label: Official Link
       description: The official link of the project
-      placeholder: http://github.com/
+      placeholder: "http://github.com/"
 
   - type: input
     id: category
